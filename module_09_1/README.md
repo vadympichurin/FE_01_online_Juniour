@@ -20,15 +20,17 @@
   - инициализация и package.json
   - [npmjs.com](https://www.npmjs.com/)
 
-
-
-  
   - работа с пакетами
     - установка
     - удаление
   - CommonJS модули
   - npm-скрипты
     - pre и post
+
+
+    express 
+
+    
 - Транспиляция кода
   - [Babel](https://babeljs.io/)
   - CLI и npm-скрипты
