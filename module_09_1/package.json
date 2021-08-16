@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "start": "node app.js",
+    "server": "node server.js",
+    "build": "parcel build index.html",
     "prestart": "echo \"script PRE\" ",
-    "poststart": "echo \"script POST\" ",
-    "dev": "",
-    "predev": "",
-    "postdev": ""
+    "poststart": "echo \"script POST\" "
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,11 @@
     "express": "^4.17.1",
     "joi": "^17.4.2",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "parcel-bundler": "^1.12.5"
   }
 }

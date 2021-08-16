@@ -19,18 +19,12 @@
   - установка
   - инициализация и package.json
   - [npmjs.com](https://www.npmjs.com/)
-
   - работа с пакетами
     - установка
     - удаление
   - CommonJS модули
   - npm-скрипты
     - pre и post
-
-
-    express 
-
-    
 - Транспиляция кода
   - [Babel](https://babeljs.io/)
   - CLI и npm-скрипты
@@ -38,6 +32,15 @@
   - [Browserslist](https://github.com/browserslist/browserslist)
 - [Сборщик Parcel](https://parceljs.org/)
 - [ECMAScript модули](https://exploringjs.com/es6/ch_modules.html)
+
+
+
+
+
+
+
+
+
   - Дефолтный (default) експорт и импорт
   - Именованный (named) експорт и импорт
   - Импорт пространства имён (namespace)
