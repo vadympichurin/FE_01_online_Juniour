@@ -96,12 +96,12 @@ function populateForm() {
 //   console.log(formData);
 // });
 
-countries.map(
-  country =>
-    `<div>
-<h2>${country.name}</h2>
-<p>${country.language}</p>
-</div>`,
-);
+// countries.map(
+//   country =>
+//     `<div>
+// <h2>${country.name}</h2>
+// <p>${country.language}</p>
+// </div>`,
+// );
 
-<p>{{name}}</p>
+// <p>{{name}}</p>
