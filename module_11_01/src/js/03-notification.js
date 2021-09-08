@@ -7,26 +7,33 @@ import '../css/common.css';
  * - Не забываем чистить таймер
  */
 
-// const NOTIFICATION_DELAY = 3000;
+const NOTIFICATION_DELAY = 3000;
+let timeoutId = null;
+
 const refs = {
   notification: document.querySelector('.js-alert'),
 };
 
-refs.notification.addEventListener('click', onNotificationClick);
-
 showNotification();
 
-/*
- * Функции
- */
-function onNotificationClick() {
+refs.notification.addEventListener("click", notificationOnClick);
+
+function notificationOnClick(){
   hideNotification();
+  clearTimeout(timeoutId);
 }
 
 function showNotification() {
-  refs.notification.classList.add('is-visible');
+  refs.notification.classList.add("is-visible");
+
+  timeoutId = setTimeout(() => {
+    console.log('Закриваємо нотіфікацію автоматично');
+    hideNotification();
+  }, NOTIFICATION_DELAY);
 }
 
-function hideNotification() {
-  refs.notification.classList.remove('is-visible');
-}
+function hideNotification(){
+  refs.notification.classList.remove("is-visible");
+};
+
+

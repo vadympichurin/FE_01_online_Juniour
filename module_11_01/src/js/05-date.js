@@ -8,14 +8,17 @@ import '../css/common.css';
  - Date.now()
 */
 
-const date1 = Date.now();
-console.log('date1', date1);
+// const date = new Date();
+
+// console.dir(date.getTime());
+// console.dir(date);
+
+const date2 = Date.now();
+console.log(date2);
 
 setTimeout(() => {
-  const date2 = Date.now();
-
-  console.log('date1', date1);
-  console.log('date2', date2);
-
-  console.log(date2 - date1);
+  const date3 = Date.now();
+  
+console.log(date2);
+console.log(date3);
 }, 3000);
